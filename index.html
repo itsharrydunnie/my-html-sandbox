@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Commpatible" content="ie=edge">
+  <meta name="description" content="this is my website description">
+  <meta name="keyword" content="web developer, designer, manager">
+  <!-- <meta name="robots" content="NOINDEX, NOFOLLOW"> -->
+  <title>Headings</title>
+  <style>
+    body {
+      background-color: #333;
+      color: whitesmoke;
+      
+    }
+  </style>
+</head>
+<body>
+  <!-- Headings -->
+  <h1>Heading One</h1>
+  <h2>Heading Two</h2>
+  <h3>Heading Three</h3>
+  <h4>Heading Four</h4>
+  <h5>Heading five</h5>
+  <h6>Heading Six</h6>
+  <!-- paragraph -->
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero <del>molestiae dicta inppenetur praesentium non </del>veniam <br>perferendis, adipisci quia id eius minus consequuntur ut nulla <strong>blanditiis amet, laborum recusandae, esse et culpa iusto dolores. Facere illo rem explicabo eius unde deleniti animi blanditiis ea odio aspernatur, molestiae corrupti itaque maxime consectetur ut voluptatum quod,</strong> doloremque voluptas dolores totam eum libero debitis? Ab ad beatae veniam nemo fugit saepe nesciunt quae doloribus <em>adipisci illo eum praesentium placeat odio magni, consectetur aliquid dolore in ut dignissimos voluptatum doloremque libero est? Saepe at officia veritatis deserunt voluptates nemo </em>dolorem praesentium eveniet perspiciatis doloremque!</p>
+  <hr>
+  <hr>
+  <p>This is a Test</p>
+  <!-- External links -->
+  <p>
+    <a href="https:google.com">Click for google</a>
+  </p>
+<p>
+    <a href="https:google.com" target="_blank">Click for google</a>
+</p>  
+<!-- internal links -->
+<p>
+  <a href="/about.html"> The about Page</a>
+</p>
+<!-- Local Image -->
+<img src="/Images/peterpandev-03072023-0001.jpg" alt="My Image" width="200">
+<!-- Remote Image -->
+<img src="" alt="My Image 2">
+
+<!--Unordered List-->
+
+<ul>
+  <li> Item 1</li>
+  <li> Item 2</li>
+  <li> Item 3</li>
+  <li> Item 4</li>
+</ul>
+
+<!-- Ordered List-->
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+  <li>Item 4</li>
+</ol>
+
+<!-- Nested List-->
+<ul>
+  <li> Item 1</li>
+  <li> Item 2</li>
+  <ul>
+    <li>Option 1</li>
+    <li>Option 2</li>
+    <li>Option 3</li>
+    <li>Option 4</li>
+  </ul>
+  <li> Item 3</li>
+  <li> Item 4</li>
+</ul>
+
+<!-- Tables-->
+<table>
+  <thead>
+    <tr>
+      <th>FirstName</th>
+      <th>LastName</th>
+      <th>Email</th>
+    </tr>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>johndoe@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Kate</td>
+        <td>Smith</td>
+        <td>katesmith@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Jeff</td>
+        <td>Bezos</td>
+        <td>Jeffbezos@gmail.com</td>
+      </tr>
+    </tbody>
+  </thead>
+</table>
+
+<!-- Forms and Input-->
+<br>
+ <form action="process.php">
+  <div>
+    <label for="name">Name</label> <br>
+    <input type="text" id="name" name="name" value="Harry Dunnie">
+  </div>
+  <div>
+    <label for="email">Email</label> <br>
+    <input type="email" name="email" id="email" placeholder="Enter your email address">
+  </div>
+  <div>
+    <label for="message">Message</label> <br>
+    <textarea name="" id="" cols="50" rows="7"></textarea>
+  </div>
+  <div>
+    <label for="sex">sex</label>
+    <select name="sex" id="sex">
+      <option value="male">male</option>
+      <option value="female" selected>female</option>
+      <option value="other">other</option>
+    </select>
+  </div>
+  <div>
+  <label for="age">Age</label>
+  <input type="number" name="age" id="age">
+  </div>
+  <div>
+    <label for="birthdate">Birthdate</label> <br>
+    <input type="date" name="birthdate" id="birthdate">
+  </div>
+  <div>
+    <label for="membership">Membership</label>
+    <input type="radio" name="membership" id="membership" value="simple"> Simple
+    <input type="radio" name="membership" id="membership" value="standard" checked> Standard
+    <input type="radio" name="membership" id="membership" value="Super"> Super
+  </div>
+  <div>
+    <label for="likes">I like...</label>
+    <input type="checkbox" name="likes" id="likes" value="car"> Cars
+    <input type="checkbox" name="likes" id="likes" value="bikes" > Bikes
+    <input type="checkbox" name="likes" id="likes" value="boat"> Boat
+  </div>
+  <!-- <input type="submit" value="Submit"> -->
+  <!-- Using the button tag-->
+  <button type="submit"> Submit</button>
+  <button type="reset">Reset</button>
+ </form>
+
+
+
+ <div style="margin-top:500px"></div>
+</body>
+</html>
